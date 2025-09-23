@@ -1,0 +1,63 @@
+/* about.css 
+
+.about-section {
+  background-color: var(--bg-color);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.profile-img-wrapper {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent-color);
+  align-items: center;
+}
+
+.about-content {
+  flex: 2 1 400px;
+}
+
+.about-summary {
+  font-size: 1.1rem;
+  margin: 15px 0 25px;
+  color: var(--text-color);
+}*/
+/* ABOUT SECTION CENTERING */
+.centered-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.centered-about .profile-img-wrapper {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent-color);
+}
+
+/* Remove extra h1 in about since name in hero, but style h2 */
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+  justify-content: center;
+}

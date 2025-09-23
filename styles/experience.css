@@ -1,0 +1,56 @@
+/* experience.css */
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.experience-card {
+  background-color: var(--bg-color); /* or light element background */
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.exp-logo {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.exp-info h3 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.exp-company {
+  font-style: italic;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.exp-dates {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.exp-info ul {
+  list-style: disc inside;
+  color: var(--text-color);
+}
+
+.exp-info li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}

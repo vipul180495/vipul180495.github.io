@@ -1,0 +1,80 @@
+/* LinkedIn Section 
+.linkedin-section {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.linkedin-section .btn {
+  display: inline-block;
+  background-color: #0073b1;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.linkedin-section .btn:hover {
+  background-color: #005582;
+}
+*/
+
+/* Contact section centering */
+.centered-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-section {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.contact-info-line p {
+  font-size: 1rem;
+  margin: 8px 0;
+  /* you can adjust spacing */
+}
+
+.contact-info-line a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.contact-info-line a:hover {
+  text-decoration: underline;
+}
+
+.contact-info-icons {
+  margin-top: 15px;
+}
+
+.contact-info-icons p {
+  font-size: 1rem;
+}
+
+.contact-info-icons a {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.contact-info-icons a:hover {
+  text-decoration: underline;
+}
+
+.contact-info-icons i {
+  margin-right: 6px;
+}
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+/* variables.css */
+
+:root {
+  --bg-color: #f7f7f7;
+  --text-color: #333;
+  --nav-bg: #ffffff;
+  --accent-color: #0073b1;
+}
+
+/*dark theme variables (to be applied via class or checkbox) */
+body.dark-theme {
+  --bg-color: #1c1c1c;
+  --text-color: #e5e5e5;
+  --nav-bg: #2a2a2a;
+  --accent-color: #66b2ff;
+}
+
+
+.theme-checkbox:checked ~ .content-wrapper,
+.theme-checkbox:checked ~ .navbar,
+.theme-checkbox:checked ~ .hero /* if you want those to go dark too */ {
+  --bg-color: #1c1c1c;
+  --text-color: #e5e5e5;
+  --nav-bg: #2a2a2a;
+  --accent-color: #66b2ff;
+}
+
+/* Then any place that used var(...) picks up these changes */
+body, .content-wrapper {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+a, .project-link, .btn-hero, .theme-label {
+  color: var(--accent-color);
+}

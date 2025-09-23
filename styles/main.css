@@ -1,0 +1,17 @@
+/* main.css */
+
+@import url("variables.css");
+@import url("reset.css");
+@import url("layout.css");
+@import url("navbar.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("education.css");
+@import url("experience.css");
+@import url("projects.css");
+@import url("modal.css");
+@import url("toggle.css");
+@import url("responsive.css");
+@import url("linkedin_footer.css");
+@import url("certifications.css");
+@import url("skills.css");

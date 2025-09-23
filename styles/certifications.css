@@ -1,0 +1,79 @@
+/* certifications.css (or put into your existing split files) */
+
+.certifications-section {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 80px 20px;
+}
+
+.certifications-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--text-color);
+}
+
+.cert-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 30px;
+}
+
+.cert-card {
+  background-color: var(--nav-bg); /* or a light/dark card background */
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.cert-image {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.cert-info h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.cert-info p {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.cert-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cert-btn {
+  padding: 8px 12px;
+  background-color: var(--accent-color);
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+  
+}
+
+.cert-btn:hover {
+  background-color: var(--bg-color);
+}

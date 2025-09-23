@@ -1,0 +1,21 @@
+/* toggle.css */
+
+.theme-toggle-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.theme-checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.theme-label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}

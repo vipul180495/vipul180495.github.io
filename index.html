@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipul Prajapati | Portfolio</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- You can include icon libraries if desired -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="..." crossorigin="anonymous" />
+</head>
+<body>
+
+  <!-- Dark/Light Toggle -->
+  <div class="theme-toggle-wrapper">
+    <input type="checkbox" id="theme-toggle" class="theme-checkbox">
+    <label for="theme-toggle" class="theme-label">🌙</label>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.jpg">
+      <source src="Video/background.mp4" type="video/mp4">
+      <!-- fallback image or text -->
+    </video>
+    <div class="hero-overlay">
+      <h1>Vipul Prajapati</h1>
+      <!--<p>ADAS | Autonomous Systems | Simulation | Embedded | Linux | Robotics</p>-->
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <!--<a href="#" class="nav-logo">Vipul Prajapati</a> -->
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container about-container centered-about">
+      <div class="profile-img-wrapper">
+        <img src="images/profile.jpg" alt="Vipul Prajapati profile picture" class="profile-pic" />
+      </div>
+      <div class="about-content">
+        
+        <p class="about-summary">
+          I’m an engineer specializing in ADAS, Embedded Linux, ROS, and Autonomous Systems. 
+          I have experience performing system‑level testing of ECUs, developing simulation and control models for ADAS, 
+          and integrating sensor systems. My goal is to build reliable and safe self‑driving components using clean code, 
+          strong validation, and real‑world performance.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2>🛠 Skills</h2>
+      <p class="skills-subtitle">Technologies & Tools I Work With</p>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <img src="images/icons/cpp.svg" alt="C++" class="skill-icon" />
+          <span>C++</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/python.svg" alt="Python" class="skill-icon" />
+          <span>Python</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/ros.svg" alt="ROS" class="skill-icon" />
+          <span>ROS (Noetic)</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/linux.svg" alt="Linux" class="skill-icon" />
+          <span>Linux</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/matlab.svg" alt="MATLAB" class="skill-icon" />
+          <span>MATLAB / Simulink</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/autonomous.svg" alt="autonomous" class="skill-icon" />
+          <span>Autonomous Systems</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/embedded.svg" alt="embedded" class="skill-icon" />
+          <span>Embedded Systems</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/ai.svg" alt="ai" class="skill-icon" />
+          <span>Artificial Intelligence</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/st.svg" alt="system testing" class="skill-icon" />
+          <span>System Testing</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/pm.svg" alt="project mng" class="skill-icon" />
+          <span>Project management</span>
+        </div>
+        <!-- add more skill‑items as needed -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <h2>💼 Experience</h2>
+      <div class="experience-grid">
+        
+        <!-- Experience Card 1 -->
+        <div class="experience-card">
+          <!-- Optional: company logo -->
+          <img src="images/logos/magna-logo.png" alt="Magna Electronics logo" class="exp-logo" />
+          <div class="exp-info">
+            <h3>System Test Annotator</h3>
+            <span class="exp-company">Magna Electronics, Global Connect — Auburn Hills, MI</span>
+            <span class="exp-dates">Mar 2025 – Present</span>
+            <ul>
+              <li>Conducted system‑level & in‑vehicle testing for ADAS & autonomous driving systems across multiple ECUs.</li>
+              <li>Validated features: Park Assist, Surround View, CVADAS, Pedestrian Detection, Parking Line Detection.</li>
+              <li>Executed DVP&R activities, used CANoe & CANalyzer for CAN bus & ECU communication monitoring.</li>
+              <li>Performed ECU flashing & embedded software updates with vFlash & JTAG.</li>
+              <li>Authored test scripts & automation in Python, reducing manual overhead by ~30%.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Experience Card 2 -->
+        <div class="experience-card">
+          <img src="images/logos/ford-logo.png" alt="Ford / HCL Tech logo" class="exp-logo" />
+          <div class="exp-info">
+            <h3>Test & Diagnostic Engineer</h3>
+            <span class="exp-company">Ford / HCL Tech — Troy, MI</span>
+            <span class="exp-dates">Sep 2024 – Mar 2025</span>
+            <ul>
+              <li>Utilized PTS for diagnostics and software/hardware issue resolution in vehicle systems (APIM, ADAS, IPMA, TCU).</li>
+              <li>Validated firmware on Linux/QNX platforms, real‑time performance across modules.</li>
+              <li>Analyzed diagnostic trends, collaborated for system enhancements & continuous improvement.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Experience Card 3 -->
+        <div class="experience-card">
+          <img src="images/logos/centrepolis-logo.png" alt="Centrepolis Accelerator logo" class="exp-logo" />
+          <div class="exp-info">
+            <h3>Computer Science Intern</h3>
+            <span class="exp-company">Centrepolis Accelerator — Southfield, MI</span>
+            <span class="exp-dates">Jan 2024 – Aug 2024</span>
+            <ul>
+              <li>Prototyped a Linux‑based automotive control compute unit using Raspberry Pi 5 and Jetson Nano, integrating sensors and custom drivers using Python and C++.</li>
+              <li>Built and deployed a Python/Node.js middleware stack for real‑time control and visualization of automotive plant propagation systems and transit vehicles.</li>
+              <li>Implemented a modular hardware abstraction layer to interface GPIO, I2C, CAN via socket CAN on Linux.</li>
+              <li>Supported GPU‑assisted image processing for camera‑based environmental sensing (object detection, lane detection).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <!-- Optional: logo if you have one -->
+          <img src="images/logos/united-autotech-logo.png" alt="United Autotech logo" class="exp-logo" />
+          <div class="exp-info">
+            <h3>Automotive Control Engineer</h3>
+            <span class="exp-company">United Autotech — India</span>
+            <span class="exp-dates">Oct 2020 – May 2022</span>
+            <ul>
+              <li>Led the establishment of a Hardware‑in‑the‑Loop (HIL) Simulation Environment for ADAS integration.</li>
+              <li>Conducted PID controller tuning sessions for ADAS algorithms, improving system responsiveness.</li>
+              <li>Coordinated sensor and actuator calibration using MATLAB & Simulink for ADAS test systems.</li>
+              <li>Maintained documentation of testing procedures and results for system validation and future reference.</li>
+              <li>Utilized CAN‑based communication tools to analyze and troubleshoot electrical issues within automotive systems.</li>
+              <li>Collaborated with systems & design release engineers and suppliers to ensure effective integration of electrical components in vehicle programs.</li>
+            </ul>
+          </div>
+      </div>
+        
+        <!-- Add more cards similarly -->
+        
+      </div>
+    </div>
+  </section>
+
+
+   <!-- PROJECTS SECTION as Grid Cards -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2>🚗 Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="IGVC E‑Stop Manager" class="project-image" />
+          <div class="project-info">
+            <h3>IGVC – E‑Stop Manager </h3>
+            <p>Designed a wireless emergency stop system integrated with CAN control and real‑time visualization.</p>
+            
+            <div class="tech-stack">
+                <span>ROS</span>
+                <span>Python</span>
+                <span>SimpleSim</span>
+                <span>NiceGUI</span>
+                <!-- add more tech badges here if needed -->
+            </div> 
+
+            <div class="project-links">
+              <a href="https://www.ltu.edu/content/news/ltu-wins-college-self-driving-car-competition-for-7th-straight-year" target="_blank" class="project-link">View News</a>
+              <a href="#video-modal" class="project-link video-trigger">Watch Video</a>
+              <a href="https://github.com/vipul180495/actor_estop" target="_blank" class="project-link">GitHub</a>
+              <!-- Add Live Demo if applicable -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Adaptive Cruise Control Model" class="project-image" />
+          <div class="project-info">
+            <h3>Adaptive Cruise Control Model </h3>
+            <p>Time‑gap cruise control model with simulation, parameter tuning, and different sensor placements.</p>
+          
+            <div class="tech-stack">
+              <span>MATLAB/Simulink</span>
+              <span>IPG Car Maker</span>
+              <span>ADAS</span>
+              <!-- add more tech badges here if needed -->
+            </div> 
+          </div>
+        </div>
+        
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <img src="images/project3.jpg" alt="AEB Controller Design" class="project-image" />
+          <div class="project-info">
+            <h3>Autonomous Emergency Braking Controller Design </h3>
+            <p>Set up AEB scenarios, collision detection, radar horizon variation, and validate across different test cases.</p>
+          
+          <div class="tech-stack">
+              <span>MATLAB/Simulink</span>
+              <span>IPG Car Maker</span>
+              <span>ADAS</span>
+              <!-- add more tech badges here if needed -->
+            </div>  
+          </div>    
+        </div>
+        
+        <!-- Project Card 4 
+        <div class="project-card">
+          <a href="#video-modal" class="video-trigger">
+            <img src="images/project4.jpg" alt="Room Exploration & Mapping" class="project-image" />
+          </a>
+          <div class="project-info">
+            <h3>Room Exploration & Waypoint Mapping (ROS, Python)</h3>
+            <p>Mapping & navigation in unknown environments with obstacle detection & waypoint following using computer vision.</p>
+            <a href="#video-modal" class="project-link">Watch Video</a>
+          </div>
+        </div>-->
+        <div class="project-card">
+          <img src="images/project4.jpg" alt="Room Exploration & Mapping" class="project-image" />
+
+          <div class="project-info">
+            <h3>Room Exploration & Waypoint Mapping</h3>
+            <p>Mapping & navigation in unknown environments with obstacle detection & waypoint following using computer vision.</p>
+
+            <div class="tech-stack">
+              <span>ROS</span>
+              <span>Python</span>
+              <span>Computer Vision</span>
+              <!-- add more tech badges here if needed -->
+            </div>
+
+            <div class="project-links">
+              <a href="#video-modal" class="project-link video-trigger">Watch Video</a>
+              <a href="https://github.com/your‑repo‑here" target="_blank" class="project-link">GitHub</a>
+              <!-- Add Live Demo if applicable -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal (initially hidden) -->
+        <div id="video-modal" class="video-modal">
+          <div class="video-modal-content">
+            <a href="#" class="video-modal-close">&times;</a>
+            <video id="modal-video" controls>
+              <source src="Video/project4-demo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        
+        <!-- Project Card 5 
+        <div class="project-card">
+          <img src="images/project5.jpg" alt="Dream Home Web App" class="project-image" />
+          <div class="project-info">
+            <h3>Dream Home Web App (React.js, Node.js, SQL)</h3>
+            <p>Full‑stack property management app with voice accessibility features & SQL backend.</p>
+            <a href="https://vipul180495.github.io/AAVAS/" target="_blank" class="project-link">Live Demo</a>
+          </div>
+        </div>-->
+        <div class="project-card">
+          <img src="images/project5.jpg" alt="Dream Home Web App" class="project-image" />
+          <div class="project-info">
+            <h3>Dream Home Web App</h3>
+            <p>Full‑stack property management app with voice accessibility features & SQL backend.</p>
+
+            <!-- Tech stack badges -->
+            <div class="tech-stack">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>SQL</span>
+              <span>JavaScript</span>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="project-links">
+              <a href="https://vipul180495.github.io/AAVAS/" target="_blank" class="project-link">Live Demo</a>
+              <a href="https://github.com/vipul180495/AAVAS" target="_blank" class="project-link">GitHub</a>              
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card: RRT (Your Project) -->
+        <div class="project-card">
+          <img src="images/project6.jpg" alt="RRT Path Planning" class="project-image" />
+          <div class="project-info">
+            <h3>RRT Path Planning (Your RRT Project Name)</h3>
+            <p>Implemented the Rapidly‑Exploring Random Tree (RRT) algorithm for path planning in [environment or simulation name]. Tested with obstacles, constraints, and visualized results.</p>
+            
+            <div class="tech-stack">
+              <span>MATLAB</span>
+              <span>Simulink</span>
+              <!-- you can add more relevant tech like Gazebo, OMPL, etc. -->
+            </div>
+            
+            <div class="project-links">
+              <a href="https://github.com/vipul180495/RRT-RRT-" target="_blank" class="project-link">GitHub</a>
+              <!-- If you have a demo / video / live link, add here -->
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- /.projects-grid -->
+    </div>
+  </section>
+
+    <!-- Education SECTION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <h2>🎓 Education</h2>
+      <div class="education-grid">
+        <div class="edu-card">
+          <div class="edu-logo">
+            <img src="images/logos/ltu-logo.png" alt="Lawrence Technological University Logo" />
+          </div>
+          <div class="edu-details">
+            <h3>Lawrence Technological University</h3>
+            <p class="edu-location">Southfield, Michigan, USA</p>
+            <p class="edu-degree"><strong>Master of Science — Computer Science (Intelligent Systems)</strong></p>
+            <p class="edu-dates">Graduated: December 2024</p>
+            <div class="edu-focus">
+              <ul>
+                <li>C++ & Data Structures</li>
+                <li>Artificial Intelligence</li>
+                <li>Database Systems</li>
+                <li>Robot Operating System (ROS)</li>
+                <li>ADAS</li>
+                <li>Algorithm Design & Analysis</li>
+                <li>Edge of AI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-logo">
+            <img src="images/logos/university‑of‑mumbai‑logo.png" alt="University of Mumbai Logo" />
+          </div>
+          <div class="edu-details">
+            <h3>University of Mumbai</h3>
+            <p class="edu-location">Mumbai, India</p>
+            <p class="edu-degree"><strong>Bachelor of Technology — Mechanical Engineering</strong></p>
+            <p class="edu-dates">Graduated: June 2017</p>
+            <div class="edu-focus">
+              <ul>
+                <li>Vehicle Systems</li>
+                <li>Thermodynamics</li>
+                <li>IC Engines</li>
+                <li>Industrial Electronics</li>
+                <li>Composite Materials</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- add more edu cards similarly if you want -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS SECTION -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <h2>🛈 Certificates</h2>
+      <!--<p class="certifications-subtitle">Here are some certificates I’ve earned</p>-->
+      <div class="cert-grid">
+        <!-- Cert Card 1 -->
+        <div class="cert-card">
+          <!--<img src="images/certs/cert1.jpg" alt="Certificate 1" class="cert-image" />-->
+          <div class="cert-info">
+            <h3>Cybersecurity - Automotive</h3>
+            <p>Udemy — January - 2025</p>
+            <div class="cert-buttons">
+              <a href="certs/cert1.jpg" target="_blank" class="cert-btn">View</a>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Cert Card 2 -->
+        <div class="cert-card">
+          <!--<img src="images/certs/cert2.jpg" alt="Certificate 2" class="cert-image" />-->
+          <div class="cert-info">
+            <h3>AUTOSAR Architecture</h3>
+            <p>Udemy — February - 2025</p>
+            <div class="cert-buttons">
+              <a href="certs/cert2.jpg" target="_blank" class="cert-btn">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- Cert Card 3 -->
+        <div class="cert-card">
+          <!--<img src="images/certs/cert2.jpg" alt="Certificate 2" class="cert-image" />-->
+          <div class="cert-info">
+            <h3>CAN protocol from Scratch</h3>
+            <p>Udemy — September - 2025</p>
+            <div class="cert-buttons">
+              <a href="certs/cert3.jpg" target="_blank" class="cert-btn">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cert‑cards similarly -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <div class="container centered-contact">
+      <h2>Get in Touch</h2>
+      <div class="contact-info-line">
+        <p><i class="fas fa-envelope"></i> <a href="mailto:vprajapat@ltu.edu">vprajapat@ltu.edu</a> &nbsp;|&nbsp; <i class="fas fa-phone"></i> <a href="tel:+19472407077">+1 (947) 240‑7077</a></p>
+      </div>
+      <div class="contact-info-icons">
+        <p>
+          <a href="https://github.com/vipul180495" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+          <a href="https://www.linkedin.com/in/vipul-prajapati-b20301118" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+          <a href="vipul_resume.pdf" target="_blank"><i class="fas fa-file-alt"></i> Resume</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Vipul Prajapati</p>
+    </div>
+  </footer>
+
+  <script>
+  // Smooth scrolling
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetID = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetID);
+        if (targetSection) {
+          window.scrollTo({
+            top: targetSection.offsetTop - 60,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Mobile hamburger menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Active nav highlighting on scroll
+    window.addEventListener('scroll', () => {
+      const sections = document.querySelectorAll('section');
+      const scrollY = window.pageYOffset;
+      sections.forEach(sec => {
+        const sectionHeight = sec.offsetHeight;
+        const sectionTop = sec.offsetTop - 80;
+        const sectionID = sec.getAttribute('id');
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+          });
+          const targetLink = document.querySelector('.nav-menu a[href="#' + sectionID + '"]');
+          if (targetLink) {
+            targetLink.classList.add('active');
+          }
+        }
+      });
+    });
+
+    // ✅ Video popup modal logic
+    document.addEventListener("DOMContentLoaded", () => {
+      const videoModal = document.getElementById('video-modal');
+      const modalVideo = document.getElementById('modal-video');
+      const closeBtn = document.querySelector('.video-modal-close');
+
+      document.querySelectorAll('.video-trigger').forEach(img => {
+        img.addEventListener('click', () => {
+          const videoSrc = img.getAttribute('data-video-src');
+          if (videoSrc && modalVideo) {
+            modalVideo.querySelector('source').setAttribute('src', videoSrc);
+            modalVideo.load();
+            videoModal.style.display = 'flex';
+          }
+        });
+      });
+     
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          if (modalVideo) {
+            modalVideo.pause();
+            // optionally: modalVideo.currentTime = 0;
+          }
+          videoModal.style.display = 'none';
+        });
+      }
+
+      if (videoModal) {
+        videoModal.addEventListener('click', (e) => {
+          if (e.target === videoModal) {
+            if (modalVideo) {
+              modalVideo.pause();
+            }
+            videoModal.style.display = 'none';
+          }
+        });
+      }
+
+      
+    // Scroll-to-top logic
+    const scrollBtn = document.getElementById('scrollToTopBtn');
+
+    window.addEventListener('scroll', () => {
+      // show button after user scrolls down a bit
+      if (window.pageYOffset > 300) {
+        scrollBtn.style.display = 'block';
+      } else {
+        scrollBtn.style.display = 'none';
+      }
+    });
+
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+  });
+</script>
+<!-- Scroll To Top Button -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn">↑</button>
+
+<script src="theme-toggle.js"></script>
+</body>
+
+</html>

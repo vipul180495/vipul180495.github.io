@@ -1,0 +1,50 @@
+/* layout.css */
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 100px 20px 60px; /* adjust top padding based on navbar height */
+}
+
+.scroll-to-top-btn {
+  display: none; /* hidden by default */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  background-color: var(--accent-color);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.scroll-to-top-btn:hover {
+  opacity: 0.8;
+  transform: translateY(-3px);
+}
+
+/* Center all section headings (h2) */
+.section h2 {
+  text-align: center;
+}
+
+/* If you have a subtitle under the h2, center that too */
+.section .subtitle,
+.section .education-subtitle {
+  text-align: center;
+}
+
+/* If you use classes for the headings, you can target them too */
+.section-heading {
+  text-align: center;
+}
