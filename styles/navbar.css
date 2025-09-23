@@ -46,6 +46,7 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
+  gap: 5px;
 }
 
 .hamburger .bar {
@@ -77,5 +78,15 @@
   }
   .nav-menu li {
     margin: 10px 0;
+  }
+}
+
+/* larger screens */
+@media (min-width: 769px) {
+  .nav-menu {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
   }
 }
