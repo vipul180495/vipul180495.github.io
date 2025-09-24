@@ -75,7 +75,7 @@
     /* optionally add animation, transitions */
   }
   .nav-menu.active {
-    display: flex;
+    display: block;
   }
   .nav-menu li {
     margin: 10px 0;
